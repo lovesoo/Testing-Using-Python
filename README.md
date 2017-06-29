@@ -93,7 +93,7 @@ ansible中文教程：http://www.ansible.com.cn/
     
     下面介绍使用Python编写后端接口测试代码中常用的lib库：
     
-    1) 常用lib库
+    1) 通用lib库
 
         1) json: https://docs.python.org/2.7/tutorial/inputoutput.html#saving-structured-data-with-json
         
