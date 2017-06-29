@@ -1,6 +1,5 @@
 # tup
 Testing Using Python. 从零使用Python测试。
-
 ## 0. 写在前面
 本人使用Python测试已有多年，略有些皮毛经验。每次有新员工入职，都会从头教一遍如何入门上手使用Python进行测试。趁这段有空，整理成文档，也好方便后续新员工学习。文章如有不妥之处，也请各位不吝赐教^ ^
 
@@ -93,20 +92,26 @@ ansible中文教程：http://www.ansible.com.cn/
     
     下面介绍使用Python编写后端接口测试代码中常用的lib库：
     
-    1) 通用lib库
+    1) 常用lib库
 
-        json: https://docs.python.org/2.7/tutorial/inputoutput.html#saving-structured-data-with-json
+        1) json: https://docs.python.org/2.7/tutorial/inputoutput.html#saving-structured-data-with-json
         
-        PyMySQL：https://github.com/PyMySQL/PyMySQL
-    
-        redis：https://pypi.python.org/pypi/redis
+        2) 日志模块：logging https://docs.python.org/2.7/library/logging.html
         
-        pymongo: http://api.mongodb.org/python/current/
+        3) 异步并发模块：concurrent.futures入门教程 http://lovesoo.org/analysis-of-asynchronous-concurrent-python-module-concurrent-futures.html
         
-        日志模块：logging https://docs.python.org/2.7/library/logging.html
+        4) excel相关操作库：读取 xlrd、写入 xlwt、修改 xlutils
         
-        excel相关操作库：读取 xlrd、写入 xlwt、修改 xlutils
-    
+        5) 正则表达式模块：re
+        
+        6) 日期模块：time,datetime
+        
+        7) PyMySQL：https://github.com/PyMySQL/PyMySQL
+        
+        8) redis：https://pypi.python.org/pypi/redis
+        
+        9) pymongo: http://api.mongodb.org/python/current/
+        
     2) http接口
     
         requests: http://cn.python-requests.org/zh_CN/latest/
@@ -119,9 +124,9 @@ ansible中文教程：http://www.ansible.com.cn/
 
 4) 示例demo
     
-    以百度首页搜索为例，写了一个Nose框架的接口测试demo
+    以百度首页搜索为例，写了比较简单的Nose框架接口测试demo
     
-    详见：https://github.com/lovesoo/test_demo
+    详见：https://github.com/lovesoo/test_demo/tree/master/test_baiduSearch
     
 
 ### 4.2 前端(WEB)测试
@@ -139,5 +144,25 @@ uiautomator： https://github.com/xiaocong/uiautomator
     
 
 ## 5. 工具开发
+我们经常会遇到一些需要手工操作、比较繁琐且耗时的重复性工作。这时就可以考虑是否可以通过现有工具或自己编写脚本来代替手工操作。在提升工作效率、效果的同时还可以提升自己的编程水平，何乐而不为？
 
-## 6. 参考资料
+举例：之前做的一个搜索引擎项目，其中有一个功能是根据歌手的别名搜索歌手，而别名确定需要通过搜索网上的几大音乐网站来确定。大致简单梳理逻辑就会发现这是一个完全可以用Python实现的功能，如下：
+
+![](https://github.com/lovesoo/tup/blob/master/img/SearchArtist.png)
+
+示例代码详见：https://github.com/lovesoo/test_demo/tree/master/SearchArtist
+
+## 6. Q&A
+1) 学习Python过程时遇到问题怎么办？
+
+    1) 对于相关lib库模块或函数的问题，建议首先阅读官方文档 
+    2) 其次百度，Google一般即可解决问题，另外强烈推荐stackoverflow：https://stackoverflow.com/
+    3) 对于无法正常访问Google或Github的同学，建议修改hosts：https://github.com/racaljk/hosts/
+    
+2) 入门后如何提高?
+    
+    https://www.zhihu.com/question/27386361
+    
+    
+3) 未完待续...
+
