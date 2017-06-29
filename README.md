@@ -13,7 +13,9 @@ Testing Using Python. 从零使用Python测试。
 
 ## 2. 入门教程及IDE
 1) Python2.7在线教程：
-http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000
+
+    http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000
+
 2) 《Python核心编程(第二版).pdf》
 
     百度网盘：http://pan.baidu.com/s/1bpzpY6j   提取码：bk6w
@@ -61,15 +63,17 @@ ansible中文教程：http://www.ansible.com.cn/
 由于本人从事后端测试，对于前端(WEB)及客户端(ios/android)的自动化测试不甚了解，所以在此着重介绍Python在后端接口测试中的应用。
 
 ### 4.1 后端测试 
-后端测试主要时通过测试http,webservice,dubbo(hessian)等类型接口，从而完成对后端组件的功能测试。一般接口基本测试流程如下：
+1) 主要流程
 
-    1) 用例设计
-        使用MindManager/XMind等脑图软件设计接口测试用例
-    2) 转换为python测试脚本
-        主要包括用例管理，接口调用及结果校验等
+    后端测试主要时通过测试http,webservice,dubbo(hessian)等类型接口，从而完成对后端组件的功能测试。一般接口基本测试流程如下：
+
+    1) 用例设计,主要使用MindManager/XMind等脑图软件设计接口测试用例
+    
+    2) 转换为python测试脚本，主要包括用例管理，接口调用及结果校验等
+    
     3) 执行脚本完成接口测试
     
-1) 常用框架
+2) 常用框架
     
     这里只介绍目前用到的两种框架：
 
@@ -85,7 +89,7 @@ ansible中文教程：http://www.ansible.com.cn/
     
     测试框架选择可参考：http://www.infoq.com/cn/news/2012/06/robot-author-suggest-autotest/
     
-2) 常用lib库
+3) 常用lib库
     
     下面介绍使用Python编写后端接口测试代码中常用的lib库：
     
@@ -113,7 +117,7 @@ ansible中文教程：http://www.ansible.com.cn/
         
         Python调用Hessian协议接口示例：http://lovesoo.org/python-called-dubbo-hessian-protocol-interface-example.html
 
-3) 示例demo
+4) 示例demo
     
     以百度首页搜索为例，写了一个Nose框架的接口测试demo
     
@@ -122,7 +126,9 @@ ansible中文教程：http://www.ansible.com.cn/
 
 ### 4.2 前端(WEB)测试
     
-Selenium几乎是现在Python WEB自动化测框架的唯一选择了,官网地址：http://www.seleniumhq.org/
+Selenium几乎是现在Python WEB自动化测框架的唯一选择了
+
+官网地址：http://www.seleniumhq.org/
 
 ### 4.3 客户端(ios/android)测试
 Python客户端(ios/android)自动化主要框架主要有Appium,uiautomator等
