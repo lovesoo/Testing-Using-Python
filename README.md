@@ -121,7 +121,7 @@ ansible中文教程：http://www.ansible.com.cn/
     
     以百度首页搜索为例，写了一个Nose框架的接口测试demo
     
-    详见：https://github.com/lovesoo/baidu_test_demo
+    详见：https://github.com/lovesoo/test_demo
     
 
 ### 4.2 前端(WEB)测试
