@@ -69,6 +69,11 @@ ansible中文教程：http://www.ansible.com.cn/
 
     1) 用例设计,主要使用MindManager/XMind等脑图软件设计接口测试用例
     
+    如一个简单视频搜索接口(输入name返回videoName)的用例设计示例如下：
+    
+    ![](https://github.com/lovesoo/tup/blob/master/img/VideoSearch.png)
+
+    
     2) 转换为python测试脚本，主要包括用例管理，接口调用及结果校验等
     
     3) 执行脚本完成接口测试
