@@ -68,11 +68,10 @@ ansible中文教程：http://www.ansible.com.cn/
     后端测试主要时通过测试http,webservice,dubbo(hessian)等类型接口，从而完成对后端组件的功能测试。一般接口基本测试流程如下：
 
     1) 用例设计,主要使用MindManager/XMind等脑图软件设计接口测试用例
-    
-        如一个简单视频搜索接口(输入name返回videoName)的用例设计示例如下：
-    
-        ![](https://github.com/lovesoo/Testing-Using-Python/blob/master/img/VideoSearch.png)
-    
+        
+         如一个简单视频搜索接口(输入name返回videoName)的用例设计示例如下：
+         ![image](https://github.com/lovesoo/Testing-Using-Python/blob/master/img/VideoSearch.png)
+         
     2) 转换为python测试脚本，主要包括用例管理，接口调用及结果校验等
     
     3) 执行脚本完成接口测试
