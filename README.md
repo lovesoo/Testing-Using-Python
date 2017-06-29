@@ -1,5 +1,6 @@
-# tup
-Testing Using Python. 从零使用Python测试。
+# Testing-Using-Python
+从零使用Python测试。
+
 ## 0. 写在前面
 本人使用Python测试已有多年，略有些皮毛经验。每次有新员工入职，都会从头教一遍如何入门上手使用Python进行测试。趁这段有空，整理成文档，也好方便后续新员工学习。文章如有不妥之处，也请各位不吝赐教^ ^
 
