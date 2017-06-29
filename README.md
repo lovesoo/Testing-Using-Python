@@ -71,7 +71,7 @@ ansible中文教程：http://www.ansible.com.cn/
     
         如一个简单视频搜索接口(输入name返回videoName)的用例设计示例如下：
     
-        ![](https://github.com/lovesoo/tup/blob/master/img/VideoSearch.png)
+        ![](https://github.com/lovesoo/Testing-Using-Python/blob/master/img/VideoSearch.png)
     
     2) 转换为python测试脚本，主要包括用例管理，接口调用及结果校验等
     
@@ -153,7 +153,7 @@ uiautomator： https://github.com/xiaocong/uiautomator
 
 举例：之前做的一个搜索引擎项目，其中有一个功能是根据歌手的别名搜索歌手，而别名确定需要通过搜索网上的几大音乐网站来确定。大致简单梳理逻辑就会发现这是一个完全可以用Python实现的功能，如下：
 
-![](https://github.com/lovesoo/tup/blob/master/img/SearchArtist.png)
+![](https://github.com/lovesoo/Testing-Using-Python/blob/master/img/SearchArtist.png)
 
 示例代码详见：https://github.com/lovesoo/test_demo/tree/master/SearchArtist
 
