@@ -18,7 +18,7 @@
 
 2) 《Python核心编程(第二版).pdf》
 
-    百度网盘：http://pan.baidu.com/s/1bpzpY6j   提取码：bk6w
+    百度网盘链接: http://pan.baidu.com/s/1bpbANTX 密码: k9bg
 
 3) pip
 
