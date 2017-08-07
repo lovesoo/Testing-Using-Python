@@ -166,6 +166,7 @@ uiautomator： https://github.com/xiaocong/uiautomator
 2) 入门后如何提高?
     
     https://www.zhihu.com/question/27386361
+    https://www.zhihu.com/question/27969262
     
     
 3) 未完待续...
