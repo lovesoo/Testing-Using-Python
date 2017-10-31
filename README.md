@@ -162,17 +162,7 @@ uiautomator： https://github.com/xiaocong/uiautomator
 
 举例：之前做的一个搜索引擎项目，其中有一个功能是根据歌手的别名搜索歌手，而别名确定需要通过搜索网上的几大音乐网站来确定。大致简单梳理逻辑就会发现这是一个完全可以用Python实现的功能，如下：
 
-```
-graph TD
-A["从excel读取待确认歌手别名信息"]-->B["依次从几大音乐网站搜索别名"]
-B-->C{"百度"}
-B-->D{"网易"}
-B-->E{"腾讯"}
-C-->F["校验搜索结果"]
-D-->F["校验搜索结果"]
-E-->F["校验搜索结果"]
-F-->G["写回最终歌手别名结果至excel中"]
-```
+-![image](https://github.com/lovesoo/Testing-Using-Python/blob/master/img/SearchArtist.png)
 
 示例代码详见：https://github.com/lovesoo/test_demo/tree/master/SearchArtist
 
