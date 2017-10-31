@@ -1,3 +1,5 @@
+# Testing-Using-Python 从零使用Python测试。
+ 
 # 0. 写在前面
 本人使用Python测试已有多年，略有些皮毛经验。每次有新员工入职，都会从头教一遍如何入门上手使用Python进行测试。趁这段有空，整理成文档，也好方便后续新员工学习。文章如有不妥之处，也请各位不吝赐教^ ^
 
@@ -160,9 +162,7 @@ uiautomator： https://github.com/xiaocong/uiautomator
 # 5. 工具开发
 我们经常会遇到一些需要手工操作、比较繁琐且耗时的重复性工作。这时就可以考虑是否可以通过现有工具或自己编写脚本来代替手工操作。在提升工作效率、效果的同时还可以提升自己的编程水平，何乐而不为？
 
-举例：之前做的一个搜索引擎项目，其中有一个功能是根据歌手的别名搜索歌手，而别名确定需要通过搜索网上的几大音乐网站来确定。大致简单梳理逻辑就会发现这是一个完全可以用Python实现的功能，如下：
-
--![image](https://github.com/lovesoo/Testing-Using-Python/blob/master/img/SearchArtist.png)
+举例：之前做的一个搜索引擎项目，其中有一个功能是根据歌手的别名搜索歌手，而别名确定需要通过搜索网上的几大音乐网站来确定。大致简单梳理逻辑就会发现这是一个完全可以用Python实现的功能，如下：![image](https://github.com/lovesoo/Testing-Using-Python/blob/master/img/SearchArtist.png)
 
 示例代码详见：https://github.com/lovesoo/test_demo/tree/master/SearchArtist
 
