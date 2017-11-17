@@ -126,7 +126,7 @@ Taffy是在nose框架基础进行的二次封装，可以实现对不同类型�
     
 以百度首页搜索为例，写了比较简单的Nose框架接口测试demo
     
-详见：https://github.com/lovesoo/test_demo/blob/master/test_baidu
+详见：https://github.com/lovesoo/test_demo/tree/master/test_baidu
     
 
 ## 4.2 前端(WEB)测试
