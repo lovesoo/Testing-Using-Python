@@ -23,20 +23,6 @@
     
     pip是一款非常方便的python包管理工具，安装教程：http://lovesoo.org/windows-install-the-pip-method.html
 
-    常用命令如下：
-    ```
-    #安装包
-    pip install xxx
-     
-    #升级包，可以使用-U 或者 --upgrade
-    pip install -U xxx
-     
-    #卸载包
-    pip uninstall xxx
-     
-    #列出已安装的包
-    pip list
-    ```
 4) pycharm
     
     官网：http://www.jetbrains.com/pycharm/
@@ -140,7 +126,7 @@ Taffy是在nose框架基础进行的二次封装，可以实现对不同类型�
     
 以百度首页搜索为例，写了比较简单的Nose框架接口测试demo
     
-详见：https://github.com/lovesoo/test_demo/blob/master/test_baiduSearch/test_baiduSearch.py
+详见：https://github.com/lovesoo/test_demo/blob/master/test_baidu
     
 
 ## 4.2 前端(WEB)测试
@@ -152,6 +138,7 @@ Selenium几乎是现在Python WEB自动化测框架的唯一选择了
 PDF教程: https://pan.baidu.com/s/1c2IXJWW 密码: 4r5v
 
 ## 4.3 客户端(ios/android)测试
+
 Python客户端(ios/android)自动化主要框架主要有Appium,uiautomator等
     
 Appium: http://appium.io/
